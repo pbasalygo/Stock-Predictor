@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CAD11B387C202A189B89689 /* Pods_Stock_Predictor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01774AB67B62300C854F0388 /* Pods_Stock_Predictor.framework */; };
+		E52746AA284005F00005859B /* TwitterSentimentClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E52746A9284005F00005859B /* TwitterSentimentClassifier2.mlmodel */; };
 		E5783310282E560F0028DC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578330F282E560F0028DC5E /* AppDelegate.swift */; };
 		E5783312282E560F0028DC5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5783311282E560F0028DC5E /* SceneDelegate.swift */; };
-		E5783314282E560F0028DC5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5783313282E560F0028DC5E /* ViewController.swift */; };
 		E5783317282E560F0028DC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5783315282E560F0028DC5E /* Main.storyboard */; };
 		E5783319282E56100028DC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5783318282E56100028DC5E /* Assets.xcassets */; };
 		E578331C282E56100028DC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E578331A282E56100028DC5E /* LaunchScreen.storyboard */; };
+		E5783327282E56830028DC5E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5783326282E56830028DC5E /* LoginViewController.swift */; };
+		E578332B282E579B0028DC5E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578332A282E579B0028DC5E /* RegisterViewController.swift */; };
+		E578332D282E57D00028DC5E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578332C282E57D00028DC5E /* HomePageViewController.swift */; };
+		E578332F282E60270028DC5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E578332E282E60270028DC5E /* GoogleService-Info.plist */; };
+		E578333128323C9F0028DC5E /* AddCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578333028323C9F0028DC5E /* AddCompanyViewController.swift */; };
+		E578333328325F4D0028DC5E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578333228325F4D0028DC5E /* Company.swift */; };
+		E578333728326A280028DC5E /* AddingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578333628326A280028DC5E /* AddingManager.swift */; };
+		E5783339283399E30028DC5E /* CompanyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5783338283399E30028DC5E /* CompanyDetailsViewController.swift */; };
+		E578333B2833B9B00028DC5E /* CompanyDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578333A2833B9B00028DC5E /* CompanyDetailsModel.swift */; };
+		E578333D2833B9CA0028DC5E /* CompanyDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578333C2833B9CA0028DC5E /* CompanyDetailData.swift */; };
+		E59F803E2840B9D600642F6F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F803C2840B9D600642F6F /* TableViewCell.swift */; };
+		E59F803F2840B9D600642F6F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59F803D2840B9D600642F6F /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01774AB67B62300C854F0388 /* Pods_Stock_Predictor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_Predictor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BE3B33943DEB0BD6C79848 /* Pods-Stock Predictor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Predictor.release.xcconfig"; path = "Target Support Files/Pods-Stock Predictor/Pods-Stock Predictor.release.xcconfig"; sourceTree = "<group>"; };
+		E52746A9284005F00005859B /* TwitterSentimentClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterSentimentClassifier2.mlmodel; sourceTree = "<group>"; };
 		E578330C282E560F0028DC5E /* Stock Predictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Predictor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E578330F282E560F0028DC5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5783311282E560F0028DC5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5783313282E560F0028DC5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5783316282E560F0028DC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5783318282E56100028DC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E578331B282E56100028DC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E578331D282E56100028DC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5783326282E56830028DC5E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E578332A282E579B0028DC5E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E578332C282E57D00028DC5E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		E578332E282E60270028DC5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E578333028323C9F0028DC5E /* AddCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompanyViewController.swift; sourceTree = "<group>"; };
+		E578333228325F4D0028DC5E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		E578333628326A280028DC5E /* AddingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingManager.swift; sourceTree = "<group>"; };
+		E5783338283399E30028DC5E /* CompanyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsViewController.swift; sourceTree = "<group>"; };
+		E578333A2833B9B00028DC5E /* CompanyDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsModel.swift; sourceTree = "<group>"; };
+		E578333C2833B9CA0028DC5E /* CompanyDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailData.swift; sourceTree = "<group>"; };
+		E59F803C2840B9D600642F6F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E59F803D2840B9D600642F6F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		EB8211C4948C004BFB9D4573 /* Pods-Stock Predictor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock Predictor.debug.xcconfig"; path = "Target Support Files/Pods-Stock Predictor/Pods-Stock Predictor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAD11B387C202A189B89689 /* Pods_Stock_Predictor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB392B327BF81C6E0297F25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB8211C4948C004BFB9D4573 /* Pods-Stock Predictor.debug.xcconfig */,
+				A0BE3B33943DEB0BD6C79848 /* Pods-Stock Predictor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF7F85639E94B1966B515B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01774AB67B62300C854F0388 /* Pods_Stock_Predictor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5783303282E560F0028DC5E = {
 			isa = PBXGroup;
 			children = (
 				E578330E282E560F0028DC5E /* Stock Predictor */,
 				E578330D282E560F0028DC5E /* Products */,
+				2FB392B327BF81C6E0297F25 /* Pods */,
+				DF7F85639E94B1966B515B14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,59 @@
 		E578330E282E560F0028DC5E /* Stock Predictor */ = {
 			isa = PBXGroup;
 			children = (
+				E59F80402841421D00642F6F /* MLModels */,
 				E578330F282E560F0028DC5E /* AppDelegate.swift */,
 				E5783311282E560F0028DC5E /* SceneDelegate.swift */,
-				E5783313282E560F0028DC5E /* ViewController.swift */,
-				E5783315282E560F0028DC5E /* Main.storyboard */,
+				E5783325282E56480028DC5E /* Models */,
+				E5783324282E56320028DC5E /* Controllers */,
+				E5783323282E56280028DC5E /* Views */,
 				E5783318282E56100028DC5E /* Assets.xcassets */,
 				E578331A282E56100028DC5E /* LaunchScreen.storyboard */,
 				E578331D282E56100028DC5E /* Info.plist */,
+				E578332E282E60270028DC5E /* GoogleService-Info.plist */,
 			);
 			path = "Stock Predictor";
+			sourceTree = "<group>";
+		};
+		E5783323282E56280028DC5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5783315282E560F0028DC5E /* Main.storyboard */,
+				E59F803C2840B9D600642F6F /* TableViewCell.swift */,
+				E59F803D2840B9D600642F6F /* TableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5783324282E56320028DC5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5783326282E56830028DC5E /* LoginViewController.swift */,
+				E578332A282E579B0028DC5E /* RegisterViewController.swift */,
+				E578332C282E57D00028DC5E /* HomePageViewController.swift */,
+				E578333028323C9F0028DC5E /* AddCompanyViewController.swift */,
+				E5783338283399E30028DC5E /* CompanyDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5783325282E56480028DC5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E578333228325F4D0028DC5E /* Company.swift */,
+				E578333628326A280028DC5E /* AddingManager.swift */,
+				E578333A2833B9B00028DC5E /* CompanyDetailsModel.swift */,
+				E578333C2833B9CA0028DC5E /* CompanyDetailData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E59F80402841421D00642F6F /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				E52746A9284005F00005859B /* TwitterSentimentClassifier2.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5783320282E56100028DC5E /* Build configuration list for PBXNativeTarget "Stock Predictor" */;
 			buildPhases = (
+				8B24306643D6A61C952D0027 /* [CP] Check Pods Manifest.lock */,
 				E5783308282E560F0028DC5E /* Sources */,
 				E5783309282E560F0028DC5E /* Frameworks */,
 				E578330A282E560F0028DC5E /* Resources */,
+				8B0296AA12F893731D692327 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E578331C282E56100028DC5E /* LaunchScreen.storyboard in Resources */,
+				E59F803F2840B9D600642F6F /* TableViewCell.xib in Resources */,
+				E578332F282E60270028DC5E /* GoogleService-Info.plist in Resources */,
 				E5783319282E56100028DC5E /* Assets.xcassets in Resources */,
 				E5783317282E560F0028DC5E /* Main.storyboard in Resources */,
 			);
@@ -133,14 +229,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B0296AA12F893731D692327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Predictor/Pods-Stock Predictor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stock Predictor/Pods-Stock Predictor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stock Predictor/Pods-Stock Predictor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B24306643D6A61C952D0027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stock Predictor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5783308282E560F0028DC5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5783314282E560F0028DC5E /* ViewController.swift in Sources */,
+				E578333728326A280028DC5E /* AddingManager.swift in Sources */,
+				E5783327282E56830028DC5E /* LoginViewController.swift in Sources */,
 				E5783310282E560F0028DC5E /* AppDelegate.swift in Sources */,
+				E578333128323C9F0028DC5E /* AddCompanyViewController.swift in Sources */,
+				E578333D2833B9CA0028DC5E /* CompanyDetailData.swift in Sources */,
+				E59F803E2840B9D600642F6F /* TableViewCell.swift in Sources */,
 				E5783312282E560F0028DC5E /* SceneDelegate.swift in Sources */,
+				E5783339283399E30028DC5E /* CompanyDetailsViewController.swift in Sources */,
+				E578333328325F4D0028DC5E /* Company.swift in Sources */,
+				E578332D282E57D00028DC5E /* HomePageViewController.swift in Sources */,
+				E578333B2833B9B00028DC5E /* CompanyDetailsModel.swift in Sources */,
+				E52746AA284005F00005859B /* TwitterSentimentClassifier2.mlmodel in Sources */,
+				E578332B282E579B0028DC5E /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +432,7 @@
 		};
 		E5783321282E56100028DC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8211C4948C004BFB9D4573 /* Pods-Stock Predictor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +460,7 @@
 		};
 		E5783322282E56100028DC5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BE3B33943DEB0BD6C79848 /* Pods-Stock Predictor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
